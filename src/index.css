@@ -1,2 +1,69 @@
-
 @import "tailwindcss";
+
+/* Common CampusSphere Theme */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e293b;
+  background: #f1f5ff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eff6ff, #ffffff, #eef2ff);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Common headings */
+h1,
+h2,
+h3 {
+  color: #1e40af;
+}
+
+/* Common form controls */
+input,
+select,
+textarea {
+  max-width: 100%;
+}
+
+/* Common links */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
+
+/* Responsive pages */
+img {
+  max-width: 100%;
+}
+
